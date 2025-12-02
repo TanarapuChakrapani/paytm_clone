@@ -1,0 +1,509 @@
+*{
+    margin: 0px;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+body{
+    background-color: #F7F9FC;
+}
+.main{
+    background-color: #FFFFFF;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 1px 2px 5px #E9EDF4;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    width: 110px;
+}
+.btn img{
+    margin-left: -6px;
+}
+.parent{
+    padding: 4% 4% 0% 4%;
+}
+.one{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 25px 110px 0px 0px;
+}
+.two h3{
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.two1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.two1 img{
+    width:40%;
+}
+
+.two1 a{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+color: black;
+text-align: center;
+padding: 15px;
+}
+.two1  a small{
+    text-align: center;
+    width:80px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.two1 a:hover{
+box-shadow: 2px 4px 20px #E8ECF3;
+border-radius: 15px;
+}
+.two1 small{
+    margin-top: 10px;
+}
+.three{
+display: flex;
+flex-direction: column;
+width: 900px;
+background-color: white;
+margin-left: 120px;
+border-radius: 15px;
+}
+.line1{
+    margin:0px -25px 0px 10px;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  
+}
+.line1 img{
+    margin-right: 20px;
+}
+.line1 img:hover{
+    transform: scale(1.02);
+}
+.line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 35px 50px 0px 70px;
+}
+.line2 img{
+    border-radius: 20px;
+}
+.parent2{
+    margin-top: 10px;
+    background-color: #E8F8FD;
+    padding: 15px;
+}
+.line3 div{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 0px 11.8%;
+    text-align: center;
+    gap: 30px;
+}
+.line3 a{
+    display: flex;
+    flex-direction: column;
+}
+.line3 small{
+    margin-left: -32px;
+}
+.logo{
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.whitebox{
+    padding: 15px;
+    background-color: white;
+    margin: 20px 10.5% 0% 11.8%;
+    border-radius: 15px;
+}
+.w1{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.w1{
+    gap: 5px;
+}
+.w1 small{
+    padding-right: 30px;
+}
+input[type="radio"]{
+    transform: scale(1.5);
+    /* accent-color: #00B9F5; */
+}
+.w2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.w2 small{
+    color: gray;
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.w20{
+    position: relative;
+    left: -16.5px; 
+}
+.w20 img{
+    position: relative;
+    top: 2.8px;
+    left: -10px;
+    width: 7%;
+}
+.w2 button{
+    color: white;
+    background-color: #00BAF2;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+.w21{
+    padding-left: 15px;
+    border-left: 2px solid #CACACA;
+}
+.w22{
+    padding-left: 15px;
+    border-left: 2px solid #CACACA;
+}
+.w22 h4{
+    color:  #00BAF2;
+}
+.w23{
+    padding-left: 15px;
+    border-left: 2px solid #CACACA;
+}
+.hr{
+    color: gray;
+}
+.w3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+.w3 span{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+.w3 small{
+    color: gray;
+}
+.w31{
+    border: none !important;
+}
+.w31 h6{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #21c179;
+}
+.parent3{
+    background-color: #F7F9FC;
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.parent31{
+    background-color: #FFFFFF;
+    width: 100%;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 6%;
+    margin: 1% 10.5% 1% 12.8%;
+    border-radius: 25px;
+}
+.contents{
+    width:700px;
+    padding: 40px;
+}
+.parent31 span{
+    color: #00BAF2;
+}
+.contents img{
+    margin-top: 55px;
+}
+.p1{
+    margin-top: 20px;
+}
+.p2{
+    margin-top: 20px;
+}
+.contents div{
+    margin-top: -30px;
+}
+.parent32{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%  10% 1% 12.8%;
+    padding: 0.3% 2%;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(to top,#00c3f1, #00a9f6, #0093fb, #008bfd);
+}
+.parent32 h3{
+    margin-left: -14.8%;
+}
+.parent32 h4{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0.7% 1.5%;
+}
+.parent4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1% 10% 1% 12.8%;
+    gap: 20px;
+}
+.parent4 span{
+    color: #00BAF2;
+}
+.parent4 h1{
+    font-size: 40px;
+    width: 400px;
+}
+.parent4 p{
+    font-size: larger;
+    width: 470px;
+}
+.parent4 button{
+    color: #002970;
+    border: 1px solid #002970;
+    border-radius: 50px;
+}
+.parent4 button:hover{
+    background-color: #002970;
+    color: white;
+}
+.parent4 h1{
+    margin-top: 15px;
+}
+.parent4 p{
+    margin-top: 15px;
+}
+.parent4 div{
+    margin-top: 15px;
+}
+.parent-img{
+    margin-top: 30px;
+}
+.parent4 button{
+    background-color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+.parent41{
+    border-radius: 20px;
+    background-image: url("https://assetscdn1.paytm.com/images/catalog/view_item/1725638720587.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6% 4%;
+}
+.parent41 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.parent42{
+    border-radius: 20px;
+    background: linear-gradient(#D3F5FF, #FFFFFF);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6.5% 4%;
+}
+.parent51{
+    background-image: url(https://assetscdn1.paytm.com/images/catalog/view/1752666927695.png);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 10% 2% 12.8%;
+    border-radius: 20px;
+}
+.parent51-1 h1{
+    font-size: 40px;
+    width: 450px;
+}
+.parent51-1 span{
+    color: #00BAF2;
+}
+.parent51-2{
+    font-weight: bold;
+    width: 370px;
+}
+.parent51-1 button{
+    background-color: #002970;
+    color: white;
+    border: 1px solid #002970;
+    border-radius: 50px;
+    padding: 9px 16px;
+
+}
+.parent51-3{
+    color: gray;
+    font-size: small;
+    width: 440px;
+}
+.parent51 h1{
+    margin-top: 25px;
+}
+.parent51 p{
+    margin-top: 25px;
+}
+.parent51 button{
+    margin-top: 25px;
+}
+.parent51-1{
+    padding: 4% 6%;
+}
+.parent51 button:hover{
+    color:  #002970;
+    background-color: white;
+}
+.parent61{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 2% 10% 2% 12.8%;
+    border-radius: 20px;
+}
+.parent61 h1{
+    font-size: 40px;
+    width: 350px;
+}
+.parent61 span{
+    color:  #00BAF2;
+}
+.parent61 p{
+    font-weight: bold;
+    width: 400px;
+}
+.parent61 button{
+    background-color:  #002970;
+    color: white;
+    border: 1px solid #002970;
+    border-radius: 50px;
+    padding: 9px 16px;
+}
+.parent61 h1{
+    margin-top: 25px;
+}
+.parent61 p{
+    margin-top: 25px;
+}
+.parent61 button{
+    margin-top: 25px;
+}
+.parent61-1{
+    padding: 15% 6%;
+}
+.parent61 button:hover{
+    color:  #002970;
+    background-color: white;
+}
+.parent7{
+    margin-top: -1%;
+    background-color: #FFFFFF;
+}
+.parent71{
+    padding: 2% 10% 2% 13%;
+    color: gray;
+    font-weight: bold;
+}
+.parent71 div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.parent71-1{
+    margin-right: 10px;
+}
+.parent71-2{
+    flex-grow: 3;
+    border-bottom: 1px solid grey;
+    margin-left: 10px;
+}
+.parent71 hr{
+    margin-top: 60px;
+}
+.parent72{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parent72-1 small{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+.parent72-1 img{
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.paytm_clone-creator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -8%;
+    color: gray;
+}
+.parent8{
+    margin-top: 0.5%;
+}
+.parent81{
+    background-color: #00BAF2;
+    border:none;
+    height: 20px;
+}
+.parent82{
+    background-color: #002970;
+    border:none;
+    height: 20px;
+}
